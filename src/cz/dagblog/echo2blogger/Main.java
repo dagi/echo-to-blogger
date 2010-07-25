@@ -8,7 +8,7 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		if(args.length != 4) {
-			System.out.println("Missing input arguments: username, password, blog id for access to Blogger and registered site name for access to Echo service.\n Example java -jar echo2blogger roman.pichlik@gmail.com secret 4053149 dagblog.cz");
+			System.out.println("Missing input arguments: username, password, blog id for access to Blogger and registered site name for access to Echo service.\n Example java -jar echo-to-blogger.jar roman.pichlik@gmail.com secret 4053149 dagblog.cz");
 			System.exit(0);
 		}
 		log.info("Starting comments migration from Echo service for site " + args[3] + "  to Blogger for blog " + args[0] + ". There is known limitation of Blogger API, a custom author for comments is currently not supported. All new comments will appear as if they were created by the currently authenticated user. An original author is preserved on first line of comment.");		
