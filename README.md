@@ -25,10 +25,9 @@ Before you start:
 
 
 *   run `java -jat echo-to-blogger.jar 'username' 'password' 'blogid' 'registered site name'`
-
-**   Username and Password used for login to Blogger
-**   Blog id in Blogger (you can find it in your RSS or Atom feed)
-**   Site name in Echo (probably your domain) 
+*   Username and Password used for login to Blogger
+*   Blog id in Blogger (you can find it in your RSS or Atom feed)
+*   Site name in Echo (probably your domain) 
 
 Example:
 
